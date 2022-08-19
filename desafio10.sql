@@ -11,4 +11,3 @@ ON PL.plan_id = U.plan_id
 WHERE PL.plan_name = 'gratuito' OR PL.plan_name = 'pessoal'
 GROUP BY song
 ORDER BY song ASC;
-
